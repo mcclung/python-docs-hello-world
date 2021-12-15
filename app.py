@@ -16,3 +16,7 @@ def tyler():
 @app.route("/maddy")
 def maddy():
     return "Hello, Maddy!"
+
+@app.route("/scott")
+def scott():
+    return "Hello, Scott!"
